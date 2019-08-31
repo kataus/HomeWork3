@@ -1,0 +1,4 @@
+teststudent:
+  countAnswPassed: 8
+files:
+  testFileName: i18n/QuestionsTesting

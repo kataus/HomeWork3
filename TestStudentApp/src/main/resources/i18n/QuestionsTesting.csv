@@ -1,0 +1,10 @@
+1;For the binary search algorithm to work correctly, the array (list) must be:;Sorted;Unsorted;In a heap;Leaving a stack
+2;Determine the maximum number of nodes in a binary tree with height k, where root is zero height (0).;2ᵏ − 1;2ᵏ⁺¹ – 1;2ᵏ⁻¹ + 1;2ᵏ + 1
+2;What does the following phrase mean: "the algorithm X is asymptotically more efficient than Y"?;X will be the best choice for all inputs;X will be the best choice for all inputs except perhaps small inputs;X will be the best choice for all inputs except large inputs;Y will be the best choice for small inputs
+2;The graph traversal algorithm differs from the tree vertex traversal algorithm in that…;Trees do not connect;Graphs can have cycles;Trees have roots;All statements are wrong above: a tree — a subset of the graph
+2;Which algorithm of the following will be the most productive if given already sorted array?;Merge sort;The insertion sort;Quick sort;Heapsort
+4;What does the following function do in C? \u000A int Trial (int a, int b, int c) {\u000A if ((a >= b) && (c < b)) \u000A  return b\u003B \u000A else if (a>=b) \u000A  return Trial(a, c, b)\u003B \u000A else \u000A return Trial(b, a, c)\u003B \u000A};Finds the maximum value of a, b, and c;Finds the minimum value of a, b, and c;Finds the average of a, b and c;None of the above
+3;Dijkstra's algorithm is based on:;Divide and conquer paradigm;Dynamic programming;Greedy approach;Return search
+5;What algorithm is not based on the greedy approach?;Dijkstra's shortest path finding algorithm;The Algorithm Prima;Kruskal's Algorithm;The Huffman Algorithm;The algorithm for finding the shortest path Bellman-Ford
+3;What does the following expression do in C? x = x & (x-1);Sets all bits to 1;Makes x equal to 0;Disables the most right bit from set;Disables the left-most bit
+4;Consider the program below and determine its complexity. \u000A void function(int n) { \u000A int i, j, count=0\u003B \u000A for (i=n/2\u003B i <= n\u003B i++) \u000A for (j = 1\u003B j <= n\u003B  j = j*2) \u000A count++\u003B \u000A};O(log n);O(n²);O(n² log n);O(n log n)
